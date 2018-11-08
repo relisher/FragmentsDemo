@@ -1,0 +1,34 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name" android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Preference
+        android:key="basic_preference"
+        android:title="@string/title_basic_preference"
+        android:summary="@string/summary_basic_preference" />
+
+
+    <PreferenceCategory
+        android:title="@string/inline_preferences">
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:title="@string/title_checkbox_preference"
+            android:summary="@string/summary_checkbox_preference" />
+
+        <SwitchPreferenceCompat
+            android:key="switch_preference"
+            android:title="@string/title_checkbox_preference"
+            android:summary="@string/summary_checkbox_preference" />
+
+        <DropDownPreference
+            android:key="dropdown_preference"
+            android:title="@string/title_dropdown_preference"
+            android:summary="@string/summary_dropdown_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

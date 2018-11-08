@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ViewPager</string>
+    <string name="one">Tristrum</string>
+    <string name="two">Is a</string>
+    <string name="title_basic_preference">Hypebeast</string>
+    <string name="summary_basic_preference">Tristrum Hypebeast Settings</string>
+    <string name="inline_preferences">more hypebeast</string>
+    <string name="CheckBoxPreference">Hypebeast</string>
+    <string name="title_checkbox_preference">Hypebeast On or Off</string>
+    <string name="summary_checkbox_preference">Activating the Hypebeast</string>
+    <string name="title_dropdown_preference">Hypebeast Clothing</string>
+    <string name="summary_dropdown_preference">Hypebeast Clothing</string>
+    <string-array  name="entries_list_preference">
+        <item>Supreme</item>
+        <item>Golf Wang</item>
+        <item>Balenciega</item>
+        <item>Bape</item>
+    </string-array >
+    <string-array  name="entryvalues_list_preference">
+        <item>Supreme</item>
+        <item>Golf Wang</item>
+        <item>Balenciega</item>
+        <item>Bape</item>
+    </string-array >
+    <string name="three">Hypebeast</string>
+
+</resources>
+
